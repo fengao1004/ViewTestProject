@@ -130,7 +130,6 @@ public class NineGridView extends ViewGroup implements ViewGroup.OnHierarchyChan
         }
 
         if ((mRows == 0 || mColumns == 0) && mAdapter == null) {
-
             initMatrix(childCount);
         }
 
